@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AccueilFragment">
+
+    <fragment
+        android:id="@+id/AccueilFragment"
+        android:name="jeremie.lohyer.soupify.AccueilFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_accueil">
+
+        <action
+            android:id="@+id/action_AccueilFragment_to_RecorderFragment"
+            app:destination="@id/RecorderFragment"
+            app:enterAnim="@anim/to_listen_from_main"
+            app:exitAnim="@anim/from_main_to_listen" />
+        <action
+            android:id="@+id/action_AccueilFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/RecorderFragment"
+        android:name="jeremie.lohyer.soupify.RecorderFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_recorder">
+
+        <action
+            android:id="@+id/action_RecorderFragment_to_AccueilFragment"
+            app:destination="@id/AccueilFragment" />
+        <action
+            android:id="@+id/action_RecorderFragment_to_playerFragment"
+            app:destination="@id/playerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playerFragment"
+        android:name="jeremie.lohyer.soupify.PlayerFragment"
+        android:label="fragment_player"
+        tools:layout="@layout/fragment_player" >
+        <action
+            android:id="@+id/action_playerFragment_to_AccueilFragment"
+            app:destination="@id/AccueilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="jeremie.lohyer.soupify.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_AccueilFragment"
+            app:destination="@id/AccueilFragment" />
+    </fragment>
+</navigation>

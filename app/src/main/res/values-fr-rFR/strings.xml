@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">soupify</string>
+    <string name="song_name">Nom de la chanson</string>
+    <string name="action_settings">Paramètres</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Premier Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+    <string name="confirm">Confirmer</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="soup_prez">SOUP, le &quot;Spotify du pauvre&quot;, est une plateforme innovante qui offre une expérience d\'écoute de musique accessible à tous, même avec des ressources limitées. Le nom SOUP provient de l\'acronyme &quot;Streaming d\'Outils Utilisant la Parole&quot;. Ce service repose sur une intelligence artificielle de conversion de la parole en texte (Speech-to-Text) qui permet aux utilisateurs de rechercher et de sélectionner des chansons en utilisant simplement leur voix.</string>
+    <string name="try_it">Testez par vous-même ici -></string>
+    <string name="soup_name">Sp\nOtifyd\nU\nPauvre</string>
+    <string name="setting_name_ip">Adresse IP</string>
+    <string name="settings_name_soup">Paramètres SOUP</string>
+</resources>

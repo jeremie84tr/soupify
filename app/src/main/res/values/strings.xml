@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">soopify</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="soup_prez">SOOP, the \"Spotify for the poor\", is an innovative platform that provides a music listening experience accessible to everyone, even with limited resources. The name SOUP comes from the acronym \"Streaming of Tools Using Speech\". This service relies on artificial intelligence for speech-to-text conversion, allowing users to search for and select songs using just their voice.</string>
+    <string name="try_it">Try it yourself right here -></string>
+    <string name="soup_name">Sp\nOtifyf\nOrthe\nPoor</string>
+    <string name="song_name">song name</string>
+    <string name="confirm">confirm</string>
+    <string name="setting_name_ip">IP address</string>
+    <string name="settings_name_soup">SOOP settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="speech_recognition_not_available">Speech recognition is not available</string>
+    <string name="recording_not_available">recording is not available</string>
+    <string name="settings_name_whisper">Whisper settings</string>
+    <string name="info_transcribed_text">Transcribed text here</string>
+    <string name="settings_name_nlp">Natural language processing settings</string>
+    <string name="internet_not_available">internet is not available</string>
+    <string name="setting_name_port">Port</string>
+</resources>
